@@ -92,3 +92,6 @@ volumes:
 
 networks:
   main:
+   name: prometheus
+   driver: bridge
+   external: true
